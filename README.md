@@ -2,31 +2,23 @@
 
 Plataforma de Delivery Multi-tenant (React + Vite + TypeScript).
 
-## Modulos do Sistema
+## Modulos
 - Landing Page (Institucional)
-- Gestor de Pedidos KDS (Restaurante + IA)
+- Gestor KDS (Restaurante + IA)
 - App Delivery (Consumidor)
-- Dashboard de Parceiros (Afiliados)
+- Dashboard de Parceiros
 
 ## Como Usar
 
-### 1. Instalacao
-Instale as dependencias do projeto:
+### 1. Instalar
 npm install
 
-### 2. Rodar Localmente
-Inicie o servidor de desenvolvimento:
+### 2. Rodar
 npm run dev
 (Acesse http://localhost:3000)
 
-### 3. Publicar no GitHub
-Para colocar o site no ar (GitHub Pages):
+### 3. Publicar
 npm run deploy
-
-## Apos o Deploy
-1. No seu repositorio do GitHub, va em "Settings" > "Pages".
-2. Em "Branch", selecione "gh-pages" e clique em Save.
-3. Aguarde alguns minutos e o link estara disponivel.
 
 ## Tecnologias
 React 18, Vite, Tailwind CSS, Google GenAI SDK.
