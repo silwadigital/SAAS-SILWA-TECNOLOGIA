@@ -1,44 +1,32 @@
-# Silwa Tecnologia - Plataforma SaaS White-Label
+# Silwa Tecnologia - SaaS Delivery
 
-Este projeto é um protótipo de arquitetura de software para uma plataforma SaaS de Delivery (estilo iFood/Cardápio Digital), desenvolvido com React, TypeScript e Vite.
+Plataforma de Delivery Multi-tenant (React + Vite + TypeScript).
 
-## Ambientes do Sistema
+## Modulos do Sistema
+- Landing Page (Institucional)
+- Gestor de Pedidos KDS (Restaurante + IA)
+- App Delivery (Consumidor)
+- Dashboard de Parceiros (Afiliados)
 
-1.  **Landing Page:** Página Institucional.
-2.  **Gestor (KDS):** Painel para restaurantes gerenciarem pedidos (com IA Gemini).
-3.  **App Consumidor:** Cardápio digital para clientes.
-4.  **Parceiros:** Dashboard de afiliados.
+## Como Usar
 
-## Como Rodar Localmente
+### 1. Instalacao
+Instale as dependencias do projeto:
+npm install
 
-Certifique-se de ter o Node.js instalado.
+### 2. Rodar Localmente
+Inicie o servidor de desenvolvimento:
+npm run dev
+(Acesse http://localhost:3000)
 
-1.  Clone o repositório.
-2.  Instale as dependências:
-    ```bash
-    npm install
-    ```
-3.  Rode o projeto:
-    ```bash
-    npm run dev
-    ```
-4.  Acesse `http://localhost:3000`.
+### 3. Publicar no GitHub
+Para colocar o site no ar (GitHub Pages):
+npm run deploy
 
-## Como Publicar no GitHub Pages
+## Apos o Deploy
+1. No seu repositorio do GitHub, va em "Settings" > "Pages".
+2. Em "Branch", selecione "gh-pages" e clique em Save.
+3. Aguarde alguns minutos e o link estara disponivel.
 
-Para colocar o site no ar gratuitamente:
-
-1.  No terminal do projeto, rode:
-    ```bash
-    npm run deploy
-    ```
-2.  Aguarde o comando finalizar.
-3.  Vá no seu repositório no GitHub.
-4.  Entre em **Settings** > **Pages**.
-5.  Em "Branch", selecione **gh-pages** e clique em Save.
-
-O link do seu site aparecerá no topo da página em alguns minutos.
-
----
-
-**Tecnologias:** React 18, Vite, Tailwind CSS, Google GenAI SDK.
+## Tecnologias
+React 18, Vite, Tailwind CSS, Google GenAI SDK.
